@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruddy Bladimir Reyes Dilone - Desarrollador Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#social">Social</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="profile-image">
+                <img src="Jannell El Bichoman 🦸🏻 on TikTok.jpg" alt="Foto de perfil">
+            </div>
+            <h1>&lt;/&gt; Ruddy Bladimir Reyes Dilone</h1>
+            <p class="description">Jr Dev apasionado por el diseño web y la programación. Desarrollador Front-End en constante aprendizaje y crecimiento.</p>
+        </section>
+
+        <section id="social" class="social-section">
+            <h2>@ Social</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/dilone.09?igsh=cDk2aDMxd3luMjJl&utm_source=qr" class="social-button instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+                <a href="https://github.com/Treeks-exe" class="social-button github" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills-section">
+            <h2>🚀 Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <span>Visual Basic</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php"></i>
+                    <span>PHP</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-moon"></i>
+                    <span>Lua Scripting</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-windows"></i>
+                    <span>.NET Framework</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Game Development</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-leaf"></i>
+                    <span>Enrrolar Blunts</span>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>✉️ Contacto</h2>
+            <div class="email-container">
+                <div class="email-display">
+                    <i class="fas fa-envelope"></i>
+                    <span id="email-text">yuniotmayert@gmail.com</span>
+                </div>
+                <div class="email-buttons">
+                    <button class="email-button send" onclick="window.location.href='mailto:yuniotmayert@gmail.com'">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar correo
+                    </button>
+                    <button class="email-button copy" onclick="copyEmail()">
+                        <i class="fas fa-copy"></i>
+                        Copiar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects-section">
+            <h2>⭐ Proyectos</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Dashboard</h3>
+                    <p>Sistema de gestión de ventas online con panel administrativo y análisis de datos en tiempo real.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-code"></i> Ver código</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Hub</h3>
+                    <p>Plataforma de juegos multijugador con sistema de puntuaciones y rankings en tiempo real.</p>
+                    <div class="project-tech">
+                        <span>Lua</span>
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-code"></i> Ver código</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Task Manager App</h3>
+                    <p>Aplicación móvil para gestión de tareas con recordatorios y sincronización en la nube.</p>
+                    <div class="project-tech">
+                        <span>.NET</span>
+                        <span>C#</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-code"></i> Ver código</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // Inicializar ScrollReveal con opciones base
+        const sr = ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 1000,
+            delay: 400
+        });
+
+        // Detectar scroll para la navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animaciones para cada sección
+        sr.reveal('.hero', {
+            origin: 'top',
+            distance: '100px',
+            duration: 2000,
+            delay: 200
+        });
+
+        sr.reveal('.social-section', {
+            origin: 'left',
+            distance: '120px',
+            duration: 2000,
+            delay: 300
+        });
+
+        sr.reveal('.projects-section', {
+            origin: 'right',
+            distance: '120px',
+            duration: 2000,
+            delay: 300
+        });
+
+        sr.reveal('.skills-section', {
+            origin: 'bottom',
+            distance: '120px',
+            duration: 2000,
+            delay: 300
+        });
+
+        // Animación para las tarjetas de habilidades
+        sr.reveal('.skill-card', {
+            origin: 'bottom',
+            distance: '30px',
+            duration: 1500,
+            delay: 300,
+            interval: 200
+        });
+
+        // Smooth scroll mejorado
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Función para copiar el email
+        function copyEmail() {
+            const email = "yuniotmayert@gmail.com";
+            navigator.clipboard.writeText(email).then(() => {
+                const copyButton = document.querySelector('.email-button.copy');
+                const originalText = copyButton.innerHTML;
+                copyButton.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
+                setTimeout(() => {
+                    copyButton.innerHTML = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html> 
